@@ -1,0 +1,27 @@
+{
+    "name": "FrontEndLearning",
+    "short_name": "FrontEndLearning",
+    "description": "FrontEndLearning",
+    "start_url": "/FrontEndLearning/",
+    "scope": "/FrontEndLearning/",
+    "display": "standalone",
+    "background_color": "#fff",
+    "theme_color": "#3eaf7c",
+    "icons": [
+        {
+            "src": "/FrontEndLearning/mstile-270x270.png",
+            "sizes": "270x270",
+            "type": "image/png"
+        },
+        {
+            "src": "/FrontEndLearning/favicon-16x16.png",
+            "sizes": "16x16",
+            "type": "image/png"
+        },
+        {
+            "src": "/FrontEndLearning/favicon-32x32.png",
+            "sizes": "32x32",
+            "type": "image/png"
+        }
+    ]
+}
