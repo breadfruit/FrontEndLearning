@@ -102,7 +102,7 @@ module.exports = {
                     { title: "第十五期", path: "/moreAWeek/week15" },
                     { title: "第十六期", path: "/moreAWeek/week16" },
                     { title: "第十七期", path: "/moreAWeek/week17" },
-                    { title: "第十七期", path: "/moreAWeek/week18" }
+                    { title: "第十八期", path: "/moreAWeek/week18" }
                   ],
             }
         ],
