@@ -148,7 +148,7 @@ console.log(obj.name, obj.age);
                    "number": "P202203@number",
                    "email": "c.pchrk@hratrvve.hn",
                    "city": "克孜勒苏柯尔克孜自治州"
-               }...
+               }
            ]
        },
        "page": 2,
@@ -160,7 +160,7 @@ console.log(obj.name, obj.age);
 
    [官网](https://www.apifox.cn/help/app/mock/mock-custom-scripts/#mock-%E4%BC%98%E5%85%88%E7%BA%A7%E8%AF%B4%E6%98%8E)
 
-```json
+```javascript
 // 利用智能mock库的api
 var MockJs = require('mockjs');
 let originList = []

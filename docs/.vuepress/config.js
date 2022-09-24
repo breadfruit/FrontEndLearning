@@ -101,7 +101,8 @@ module.exports = {
                     { title: "第十四期", path: "/moreAWeek/week14" },
                     { title: "第十五期", path: "/moreAWeek/week15" },
                     { title: "第十六期", path: "/moreAWeek/week16" },
-                    { title: "第十七期", path: "/moreAWeek/week17" }
+                    { title: "第十七期", path: "/moreAWeek/week17" },
+                    { title: "第十七期", path: "/moreAWeek/week18" }
                   ],
             }
         ],
@@ -119,15 +120,15 @@ module.exports = {
       cert: fs.readFileSync(path.resolve(__dirname, './localhost+1.pem'))
   },
   plugins: [
-    [
-      '@vuepress/pwa',
-      {
-        serviceWorker: true,
-        updatePopup: {
-            message: "发现新内容可用",
-            buttonText: "刷新"
-        }
-     }
-    ]
+    // [
+    //   '@vuepress/pwa',
+    //   {
+    //     serviceWorker: true,
+    //     updatePopup: {
+    //         message: "发现新内容可用",
+    //         buttonText: "刷新"
+    //     }
+    //  }
+    // ]
   ]
 }
