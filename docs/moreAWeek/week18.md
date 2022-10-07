@@ -1,3 +1,8 @@
+---
+title: 第十八期 AART打卡计划
+author: toast
+---
+
 # Algorithm
 
 #### [3. 无重复字符的最长子串](https://leetcode.cn/problems/longest-substring-without-repeating-characters/)
@@ -6,7 +11,7 @@
 
 主要是利用字典数+深度搜索。
 
-预备知识： 
+预备知识：
 
 字典树（前缀树）是一种树形数据结构，用于高效地存储和检索字符串数据集中的键。前缀树可以用 O(|S|) 的时间复杂度完成如下操作，其中 |S|是插入字符串或查询前缀的长度：
 
@@ -38,8 +43,6 @@ class TrieNode {
 }
 ```
 
-
-
 # Review
 
 [JavaScript APIs You Don’t Know About](https://www.smashingmagazine.com/2022/09/javascript-api-guide/)
@@ -48,17 +51,17 @@ class TrieNode {
 
 ### [Page Visibility API](https://www.smashingmagazine.com/2022/09/javascript-api-guide/#page-visibility-api)
 
-#### 是什么：
+#### 是什么
 
 可以监听浏览器的可见状态。这里的hidden是关掉页面或者切换tab
 
-####  有什么用：
+#### 有什么用
 
 1. 当用户关掉页面的时候可以终止不必要的请求
 2. 当用户离开页面的时候，暂停视频，照片和动画
 3. 发送用户分析，可以知道用户停留在页面多久
 
-####  怎么用： 
+#### 怎么用
 
 ```javascript
 document.addEventListener("visibilitychange", () => {
@@ -70,8 +73,6 @@ document.addEventListener("visibilitychange", () => {
 });
 ```
 
-
-
 ### [Web Share API](https://www.smashingmagazine.com/2022/09/javascript-api-guide/#web-share-api)
 
 #### 是什么？
@@ -82,7 +83,7 @@ document.addEventListener("visibilitychange", () => {
 
 使用这个 API，您可以共享文本、链接和文件，而无需创建自己的共享机制或使用第三方机制。
 
-#### 怎么用： 
+#### 怎么用
 
 >navigator.canShare() 返回值是boolean，true表示可以双方进行共享
 >
@@ -109,8 +110,6 @@ shareButton.addEventListener("click", () => {
     shareQuote(shareData);
 });
 ```
-
-
 
 ### [Broadcast Channel API](https://www.smashingmagazine.com/2022/09/javascript-api-guide/#broadcast-channel-api)
 
@@ -156,8 +155,6 @@ broadcast.onmessage = ({data}) => {
 };
 ```
 
-
-
 ### [Internationalization API](https://www.smashingmagazine.com/2022/09/javascript-api-guide/#internationalization-api)
 
 #### 是什么？
@@ -173,6 +170,7 @@ broadcast.onmessage = ({data}) => {
 #### 怎么用？
 
 ---
+
 title: 第十八期 AAAR打卡计划
 author: toast
 ---
@@ -199,4 +197,3 @@ logDate("zh-TW"); // 2022/10/24
 [**Favicons v7.0：一个网站 Favicon.ico 图标库**](https://github.com/itgalaxy/favicons)
 
  用于对于favicon图表在不同的设备中展示的图表像素。并且favicons已经采用ts。
-

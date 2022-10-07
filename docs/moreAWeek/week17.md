@@ -1,3 +1,7 @@
+---
+title: 第十七期 TTTT打卡计划
+author: toast
+---
 # Tips
 
 ## 为什么react-query好？
@@ -29,15 +33,13 @@
 
 1. 我们不需要手动去维护一些服务端的状态。
 
-   Before： 
+   Before：
 
 ![An image](https://p6-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/3b1cbbc4820547e1b3bf70a9c8dd1136~tplv-k3u1fbpfcp-zoom-in-crop-mark:3326:0:0:0.awebp?)
 
-After： 
+After：
 
 ![An image](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/3909f3b965224c69b3bf2bef49c58fda~tplv-k3u1fbpfcp-zoom-in-crop-mark:3326:0:0:0.awebp?)
-
-
 
 随后我们可以通过：
 
@@ -88,8 +90,6 @@ console.log(obj.name, obj.age);
 // hahah undefined
 ```
 
-
-
 ## Apifox
 
 这是一个API 文档、API 调试、API Mock、API 自动化测试的工具。
@@ -106,12 +106,12 @@ console.log(obj.name, obj.age);
 
 这次我就简单的介绍一下
 
-### mock数据的一些亮点：
+### mock数据的一些亮点
 
-1.  Apifox 内置 [智能 Mock](https://www.apifox.cn/help/app/mock/intelligent-mock/) 功能。如：名称包含字符串`image`的`string`类型字段，自动 mock 出一个图片地址 URL
+1. Apifox 内置 [智能 Mock](https://www.apifox.cn/help/app/mock/intelligent-mock/) 功能。如：名称包含字符串`image`的`string`类型字段，自动 mock 出一个图片地址 URL
 2. 除了内置 mock 规则，用户还可以自定义规则库，满足各种个性化需求。支持使用 `正则表达式`、`通配符` 来匹配字段名自定义 mock 规则。
 
-其中的语法： 
+其中的语法：
 
 @city @cname..
 
@@ -123,9 +123,9 @@ console.log(obj.name, obj.age);
 
 这次我简单的使用脚本实现mock分页数据
 
-首先我们要明确的分页需要： 
+首先我们要明确的分页需要：
 
-1. 请求参数： 
+1. 请求参数：
 
 | 参数名    | 类型   | 位置  |
 | --------- | ------ | ----- |
@@ -205,8 +205,6 @@ responseJson.total = 120;
 fox.mockResponse.setBody(responseJson);
 ```
 
-
-
 ## React-Render
 
 使用 useCallback 要小心 dep 更新导致返回的函数更新。
@@ -224,4 +222,3 @@ useCallback((preCount) => {
   setCount(preCount+1)
 }, [])
 ```
-
