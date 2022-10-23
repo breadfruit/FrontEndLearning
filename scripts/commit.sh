@@ -10,7 +10,13 @@ git init
 git add -A
 git commit -m 'deploy'
 
-git checkout -b  gh-pages
+
+if git rev-parse --verify gh-pages; then
+    git checkout  gh-pages
+else
+    git checkout -b  gh-pages
+
+fi
 
 
 git push -f git@github.com:breadfruit/FrontEndLearning.git gh-pages
