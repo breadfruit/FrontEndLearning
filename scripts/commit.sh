@@ -11,11 +11,11 @@ git add -A
 git commit -m 'deploy'
 
 
-if git rev-parse --verify gh-pages; then
-    git checkout  gh-pages
+localBranch=$(git branch gh-pages |awk '{print $2}')
+if [ -n "localBranch" ]; then
+    echo "存在该分支，并不进行创建"
 else
-    git checkout -b  gh-pages
-
+    echo "该分支不存在"
 fi
 
 
