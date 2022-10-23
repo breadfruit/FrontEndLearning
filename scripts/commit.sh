@@ -14,8 +14,10 @@ git commit -m 'deploy'
 localBranch=$(git branch gh-pages |awk '{print $2}')
 if [ -n "localBranch" ]; then
     echo "存在该分支，并不进行创建"
+    git checkout gh-pages
 else
     echo "该分支不存在"
+    git checkout -b gh-pages
 fi
 
 
