@@ -52,4 +52,5 @@ exports.namedExport = 'yes';
 
 shelljs中集成了shell的一些命令
 
-运用场景： 在npm script中可以使用node文件，实现一些比较复杂的工作流。
+运用场景：
+在npm script中可以使用node文件，实现一些比较复杂的工作流。
