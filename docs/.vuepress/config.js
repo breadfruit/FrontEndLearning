@@ -107,6 +107,7 @@ module.exports = {
           { title: "第二十期", path: "/moreAWeek/week20" },
           { title: "第二十一期", path: "/moreAWeek/week21" },
           { title: "第二十二期", path: "/moreAWeek/week22" },
+          { title: "第二十三期", path: "/moreAWeek/week23" },
         ],
       }
     ],
